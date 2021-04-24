@@ -28,6 +28,10 @@ const findOutlier = (integers) => {
 	));
 };
 
+//-------------------------------TEST CONSOLE LOG-----------------------------------
+
+//----------------------RESPUESTAS ALTERNATIVAS DE OTROS------------------------
+
 /* 
 FORMA MAS RESUMIDA CON FILTER
 

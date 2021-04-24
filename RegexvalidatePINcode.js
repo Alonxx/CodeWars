@@ -22,6 +22,9 @@ const validatePIN = (pin) => {
 			: false
 		: false;
 };
+
+
+//-------------------------------TEST CONSOLE LOG-----------------------------------
 console.log(validatePIN('1234'), true);
 console.log(validatePIN('123-'), false);
 console.log(validatePIN('12.3'), false);

@@ -19,6 +19,8 @@ const number = (busStops) =>
 		0
 	); // Le hacemos un reduce  donde al acc sumamos al array en pos[0] y restamos al array pos[1]
 
+
+//-------------------------------TEST CONSOLE LOG-----------------------------------
 console.log(
 	number([
 		[10, 0],
@@ -28,6 +30,7 @@ console.log(
 	5
 );
 
+//----------------------RESPUESTAS ALTERNATIVAS DE OTROS------------------------
 /* 
 
 Otra forma mas optimizada y con destructuring de array

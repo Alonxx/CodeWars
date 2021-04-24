@@ -26,7 +26,11 @@ https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/javascript
 };
 
 
+//-------------------------------TEST CONSOLE LOG-----------------------------------
 
+console.log(high('man i need a taxi up to ubud'), 'taxi');
+console.log(high('what time are we climbing up the volcano'), 'volcano');
+//----------------------RESPUESTAS ALTERNATIVAS DE OTROS------------------------
 /* 
 
 FORMA MAS CORTA
@@ -41,5 +45,3 @@ function high(x) {
 	return x.split(' ').reduce((s, n) => (score(s) < score(n) ? n : s));
 }
  */
-console.log(high('man i need a taxi up to ubud'), 'taxi');
-console.log(high('what time are we climbing up the volcano'), 'volcano');
