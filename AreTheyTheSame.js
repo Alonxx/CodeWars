@@ -11,6 +11,8 @@ const comp = (array1, array2) => {
 	return result.includes(false) ? false : true; // Si el array que hicimos tiene algun false, entonces todo es false, si no es true
 };
 
+
+
 //-------------------------------TEST CONSOLE LOG-----------------------------------
 
 console.log(
